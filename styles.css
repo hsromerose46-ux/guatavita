@@ -1,0 +1,84 @@
+ * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', Arial, sans-serif;
+  line-height: 1.6;
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+header {
+  background-color: #226662;
+  color: white;
+  padding: 1em 0;
+  text-align: center;
+}
+
+header h1 {
+  margin-bottom: 0.5em;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+nav ul li {
+  margin: 0 15px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+section {
+  padding: 2em 1em;
+  max-width: 900px;
+  margin: 20px auto;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+section h2 {
+  margin-bottom: 0.8em;
+  color: #114f4f;
+}
+
+section p, section ul {
+  margin-bottom: 1.2em;
+}
+
+section ul li {
+  margin-bottom: 0.6em;
+}
+
+section img {
+  max-width: 100%;
+  height: auto;
+  margin-top: 1em;
+  border-radius: 5px;
+}
+
+footer {
+  background-color: #114f4f;
+  color: white;
+  text-align: center;
+  padding: 1em 0;
+  margin-top: 2em;
+}
+
+.map-container {
+  margin-top: 1em;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  overflow: hidden;
+}
